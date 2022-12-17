@@ -31,7 +31,7 @@ nav ul li a {
 nav ul {
     display: flex;
     align-items: center;
-    width: 2130px;
+    width: 1435px;
 }
 
 nav ul li {
@@ -51,31 +51,29 @@ nav ul li {
     align-items: center;
 }
 
-.signup a {
+.login{
     display: flex;
+    justify-content: center;
     align-items: center;
+}
+
+.login a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
     color: brown;
-}
-
-.signup img {
-    height: 35px;
-    padding: 0 4px 0 0px;
-}
-
-.login-signup {
-    display: flex;
-    align-items: center;
-    width: 355px;
-    list-style: none;
-}
-
-.login-signup a {
     text-decoration: none;
+    
 }
 
-.login-signup li {
-    padding: 0 10px;
-    
+.login a:hover{
+    text-decoration: underline;
+}
+
+.login a img{
+    width: 35px;
+    padding-right: 6px;
 }
 
 .s-container{
@@ -131,6 +129,8 @@ nav ul li {
 .container-a-1{
     margin: 200px 5px;
     padding: 10px 0px;
+    height: auto;
+    width: auto;
 }
 
 .container-a-1 h1{
@@ -146,19 +146,18 @@ nav ul li {
 
 .container-a-2{
     margin: 76px 5px;
+    height: auto;
+    width: auto;
 }
 
 .container-a-2 img{
     height: 430px;
 }
 
-.container-a-1 button a{
-    text-decoration: none;
-    color: white;
-    
-}
 
 .container-a-1 button{
+    text-decoration: none;
+    color: white;
     font-family: 'Roboto Condensed', sans-serif;
     background-color: brown;
     margin: 20px 0;
@@ -167,6 +166,13 @@ nav ul li {
     outline: none;
     letter-spacing: 1px;
     cursor: pointer;
+}
+
+.container-a-1 button:hover{
+    background-color: white;
+    color: brown;
+    border: 1px solid;
+    border-color: brown;
 }
 
 .container-b{
@@ -178,15 +184,28 @@ nav ul li {
     align-items: center;
 }
 
+.container-b-1{
+    margin: 200px 5px;
+    padding: 10px 0px;
+    width: 510px;
+    height: 285px;
+}
+
+.container-b-2{
+    width: 630px;
+    height: auto;
+}
+
 .container-b-1 h1{
     font-family: 'Poppins', sans-serif;
     color: white;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .container-b-1 button{
     font-family: 'Roboto Condensed', sans-serif;
     background-color: white;
+    text-decoration: none;
     margin: 20px 0;
     padding: 10px 50px;
     border: none;
@@ -195,9 +214,10 @@ nav ul li {
     cursor: pointer;
 }
 
-.container-b-1 button a{
-    text-decoration: none;
-    color: black;
+.container-b-1 button:hover{
+    background-color: brown;
+    color: white;
+    border: 1px solid white;
 }
 
 .container-b-2 img{
