@@ -31,7 +31,7 @@ nav ul li a {
 nav ul {
     display: flex;
     align-items: center;
-    width: 1435px;
+    width: 1419px;
 }
 
 nav ul li {
@@ -110,6 +110,9 @@ nav ul li {
     outline: none;
     letter-spacing: 1px;
     cursor: pointer;
+}
+.search-bar button:hover{
+    background-color: rgb(165, 80, 80);
 }
 
 .search-bar .fa-search{
@@ -223,4 +226,10 @@ nav ul li {
 .container-b-2 img{
     height: 200px;
     border-radius: 25px;
+}
+
+.container-c{
+    width: 100%;
+    height: 610px;
+    background-color: rgb(255, 251, 245);
 }
