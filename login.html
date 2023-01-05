@@ -5,19 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Log In to Medipedia</h1>
-        <form class="box" action="login.html" method="POST">
-            <label for="">
-                
-            </label><input type="text">
-            <i></i>
-            <i></i>
-            <small></small>
-        </form>
+    <nav>
+        <ul>
+            <li class="brand"><img src="images/logo.png" alt="Medipedia"></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="wellbeing.html">Wellbeing</a></li>
+            <li><a href="medicines.html">Medicines</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+    <div class="container0">
+        <div class="container">
+            <div class="header">
+                <h2>Registration Form</h2>
+            </div>
+            <form action="" class="form" id="form">
+                <div class="form-control">
+                    <label>Username</label>
+                    <input type="text" name="" id="username" placeholder="Enter your full name" autocomplete="off">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small>Error Msg</small>
+                </div>
+                <div class="form-control">
+                    <label>Email</label>
+                    <input type="email" name="" id="email" placeholder="Enter your Email" autocomplete="off">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small>Error Msg</small>
+                </div>
+                <div class="form-control">
+                    <label>Phone Number</label>
+                    <input type="number" name="" id="phno" placeholder="Enter your phone number" autocomplete="off">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small>Error Msg</small>
+                </div>
+                <div class="form-control">
+                    <label>Password</label>
+                    <input type="password" name="" id="pass" placeholder="Enter your password" autocomplete="off">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small>Error Msg</small>
+                </div>
+                <div class="form-control">
+                    <label>Confirm Password</label>
+                    <input type="password" name="" id="cpass" placeholder="Re-enter your password" autocomplete="off">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small>Error Msg</small>
+                </div>
+                <input type="submit" value="Submit" class="btn" name="">
+            </form>
+        </div>
     </div>
+    
+    <script src="login.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>
