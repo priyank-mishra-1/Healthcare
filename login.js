@@ -13,7 +13,7 @@ form.addEventListener('submit', (event) => {
 const sendData = (usernameVal, sRate, count) => {
     if(count === sRate){
         swal("Welcome! "+usernameVal, "Registration Successful!", "success");
-        // location.href = `demo.html?username=${usernameVal}`
+        location.href = `index.html?username=${usernameVal}`
     }
 }
 
